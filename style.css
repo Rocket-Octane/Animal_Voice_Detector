@@ -1,0 +1,33 @@
+body{
+    font-family: "Special Elite", cursive;
+    background-color: powderblue;
+}
+.credits_footer{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
+.header_div{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.header_div p{
+    font-family: "Roboto", sans-serif;
+    color: firebrick;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.main_div button{
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}

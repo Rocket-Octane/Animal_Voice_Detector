@@ -11,17 +11,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="heading col-xs-12 text-center">
+    <div class="header_div col-xs-12 text-center">
         <h2>Animal Voice Identifier</h2>
-        <p>Note: Play different sounds like barking, meowing, roaring and mooing.</p>
+        <p>Note: Play different sounds like barking, meowing, roaring and mooing.
+            <br>
+            Identification may go wrong sometimes.
+        </p>
     </div>
     <div class="main_div">
         <center>
             <br>
             <button class="btn btn-warning" onclick="startClassification()">START</button>
-            <h3 id="result_label">I can hear - </h3>
+            <h3 id="result_label">Detected Voice is of - </h3>
             <br>
-            <img src="listen.gif" id="bg_noise" width="300" height="300">
+            <h4 id="result_count_label">Detected Dog - </h4>
+            <img src="listen.gif" id="noise_detected_image" width="300" height="300">
         </center>
     </div>
     <div class="credits_footer">Developed By - Abhi</div>
